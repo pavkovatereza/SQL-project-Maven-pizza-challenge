@@ -30,7 +30,7 @@ The goal for this analysis is to identify possible areas of improvement to get b
 3. The restaurant is expected to receive on average 60 orders per day, with $37.56 as an average price per order, and an average amount of 2.3 pizzas per order. The highest recorded amount of pizzas in one order was 28.
 4. The majority of orders have 1-4 pizzas (8k - 3k), the number of orders with more pizzas is dramaticaly decreasing 5 pizzas was ordered only 145 times.
 5. Although the daily average of sold pizzas is comparable for the majority of months, October has the highest daily average of 144 pizzas, and December has the lowest daily average of 131 pizzas per day. July has the highest revenue of $72.5k.
-6. The majority of all orders had been placed between 11 am and 11 pm. There are only 36 orders placed outside this timeframe. 
+6. The majority of all orders had been placed between 11 and 23. There are only 36 orders placed outside this timeframe. 
 7. The rush hours of an average day are 12-14 and 17-19. 
 8. Large-size pizzas are the favorite with 18.9k pieces sold. Small-sized pizzas are the least sold with 14.4k pieces.
 9. The absolute favorite is the small-sized big meat pizza sold for $12 with 1.9k pieces sold and total revenue of $23k.
@@ -44,7 +44,7 @@ The goal for this analysis is to identify possible areas of improvement to get b
 ## 🎯 Conclusion
 The dataset provides valuable insight into the sales of Plato’s Pizza from the year 2015. For further analysis, I would recommend tracking which orders were placed for take-away and orders to eat in, and also information about the approximate cost of used ingredients (product cost). This information could be used to optimize the number of workers needed on specific days and times and the number of seats needed for guests in the restaurant. Knowing the product cost for each pizza will allow for analyzing the actual profit from selling each pizza (the most sold one or the one with the most revenue doesn’t need to be the most profitable one).
 
-The majority of orders were placed between 11 am and 11 pm with rush hours 12-14 and 17-19. Orders after 10 pm are not very common except for Friday and Saturday. I would recommend changing the opening hours to Su-Th 11-22 Fr+Sa 11-23. Due to the decreasing amount of orders after rush hours I would suggest creating some special offers for orders after 21 for weekdays (Mo-Th) or before 12 for weekends (Saturday and Sunday early lunch). Ideas on promotions for orders of 5 pizzas should be considered as well. 
+The majority of orders were placed between 11 am and 11 pm with rush hours 12-14 and 17-19. Orders after 10 pm are not very common except for Friday and Saturday. I would recommend changing the opening hours to Su-Th 11-22 Fr+Sa 11-23. Due to the decreasing amount of orders after rush hours I would suggest creating some special offers for orders after 21 for weekdays (Mo-Th) or before 12 for weekends (Saturday and Sunday early lunch). Ideas on promotions for orders of 5 and more pizzas should be discussed as well. 
 
 To increase revenue for the restaurant, I would recommend increasing the price of the most sold pizzas The Big Meat, The Classic Deluxe, The Barbecue Chicken, and also increasing the price of The Pepperoni pizza as the cheapest pizza on the menu.
 
