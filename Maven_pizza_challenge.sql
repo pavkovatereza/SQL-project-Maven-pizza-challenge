@@ -204,6 +204,16 @@ WHERE pizza_id REGEXP "xl$"
 GROUP BY pizza_id
 -- We sell only the Greek pizza in sizes XL and XXL, size XL has 552 orders
 
+# Is there any pizzas that are sold mostly in one size?
+SELECT p.pizza_id,
+	COALESCE(SUM(d.quantity),0) AS pieces_sold
+FROM pizza_sales.order_details d
+RIGHT JOIN pizza_sales.pizzas p
+	ON d.pizza_id = p.pizza_id
+GROUP BY p.pizza_id
+ORDER BY pieces_sold
+-- Those pizzas and sizes doesn't have any sold piece: Big Meat (M and L), Four Cheese (S), Five Cheese (S and M)
+
 # What are the prices of the most and least ordered pizzas?
 SELECT p.pizza_id AS id,
 	p.size,
