@@ -183,7 +183,8 @@ FROM pizza_sales.order_details
 GROUP BY pizza_id
 ORDER BY pieces_sold DESC
 LIMIT 5
--- The absolutely most favorite pizza is the big_meat small pizza with total of 1914 orders
+-- The absolutely most favorite pizza is the big_meat small size pizza with total of 1914 orders. 
+-- The big_meat has been sold only in small size, doesn't have any other sales in different sizes.
 
 # What 5 pizzas are the least sold?
 SELECT pizza_id, 
