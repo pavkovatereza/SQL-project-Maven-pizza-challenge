@@ -212,7 +212,7 @@ RIGHT JOIN pizza_sales.pizzas p
 	ON d.pizza_id = p.pizza_id
 GROUP BY p.pizza_id
 ORDER BY pieces_sold
--- Those pizzas and sizes doesn't have any sold piece: Big Meat (M and L), Four Cheese (S), Five Cheese (S and M)
+-- Those pizzas and sizes don't have any sold piece: Big Meat (M and L), Four Cheese (S), Five Cheese (S and M)
 
 # What are the prices of the most and least ordered pizzas?
 SELECT p.pizza_id AS id,
