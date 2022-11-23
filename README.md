@@ -27,7 +27,7 @@ The goal for this analysis is to identify possible areas of improvement to get b
 ## 💭 Interesting insight
 1. **The restaurant received 21350 orders, prepared 49574 pizzas, and earn $817860 in the year 2015.**
 2. Friday is the busiest day of the week with an average of 165 pizzas. Thursday and Saturday shared the second position with an average of 144 pizzas. Sunday is the least busy day with an average of 116 pizzas.
-3. The restaurant is expected to receive on average 60 orders per day, with $37.56 as an average price per order, and an average amount of 2.3 pizzas per order. The highest recorded amount of pizzas in one order was 28.
+3. The restaurant is expected to receive on average 60 orders per day, with $38.31 as an average price per order, and an average amount of 2.3 pizzas per order. The highest recorded amount of pizzas in one order was 28.
 4. The majority of orders have 1-4 pizzas (8k - 3k), the number of orders with more pizzas is dramaticaly decreasing 5 pizzas was ordered only 145 times.
 5. Although the daily average of sold pizzas is comparable for the majority of months, October has the highest daily average of 144 pizzas, and December has the lowest daily average of 131 pizzas per day. July has the highest revenue of $72.5k.
 6. The majority of all orders had been placed between 11 and 23. There are only 36 orders placed outside this timeframe. 
