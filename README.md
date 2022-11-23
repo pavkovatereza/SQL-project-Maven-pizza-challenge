@@ -23,7 +23,7 @@ The goal for this analysis is to identify possible areas of improvement to get b
 ## 🚩 Datasets limitations and issues
 1. The following days are missing from the dataset: 24th, 25th of September, 5th, 12th, 19th, 26th of October, and 25th of December (probably closed due to the holiday). All missing days from October are Mondays. The monthly/daily average will be used instead of the total to compare sales.
 2. Information about takeaway/delivery orders or eat-in is not included. Such information will be useful for further analysis to optimize seating availability and amount of workers needed in the kitchen/on the floor.
-3. There are some pizzas that doesn't have any sales in some particular sizes. Could be a system fault or actual data - data source needs to be checked).
+3. There are some pizzas that doesn't have any sales in some particular sizes. Could be a system fault or actual data - data source needs to be checked.
 
 ## 💭 Interesting insight
 1. **The restaurant received 21350 orders, prepared 49574 pizzas, and earn $817860 in the year 2015.**
