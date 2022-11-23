@@ -35,7 +35,7 @@ The goal for this analysis is to identify possible areas of improvement to get b
 7. The rush hours of an average day are 12-14 and 17-19. 
 8. Large-size pizzas are the favorite with 18.9k pieces sold. Small-sized pizzas are the least sold with 14.4k pieces.
 9. The absolute favorite is the small-sized big meat pizza priced $12 with 1.9k pieces sold and total revenue of $23k. This pizza type doesn't have any other sales in different sizes.
-10. The following pizzas and sizes don't have any records of sales: Big Meat (M and L), Four Cheese (S), Five Cheese (S and M).
+10. The following pizzas and sizes don't have any recorded sales: Big Meat (M and L), Four Cheese (S), Five Cheese (S and M).
 11. The most favorite pizza types are The Classic Deluxe, The Barbecue Chicken, and The Hawaiian.
 12.The most favorite pizza category is „Classic“.
 13. The Classic Deluxe (Classic) and The Barbecue Chicken (Chicken) have 2453 and 2432 pieces sold respectively, The Sicilian (Supreme) and The Four Cheese (Veggie) have 1938 and 1902 pieces sold respectively.
