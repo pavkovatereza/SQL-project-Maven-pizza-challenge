@@ -257,7 +257,7 @@ ORDER BY pieces_sold DESC
 # What is the average price per order?
 WITH cte_price AS
 	(SELECT d.order_id,
-		SUM(p.price) AS order_price
+		SUM(p.price*d.quantity) AS order_price
     FROM pizza_sales.pizzas p
     LEFT JOIN pizza_sales.order_details d
     ON p.pizza_id = d.pizza_id
@@ -265,7 +265,7 @@ WITH cte_price AS
 
 SELECT ROUND(AVG(order_price),2) AS avg_bill
 FROM cte_price;
--- The average price per order is $37.56
+-- The average price per order is $38.31
 
 # How many pizzas are in average order?
 WITH cte_orders AS
