@@ -50,6 +50,6 @@ The majority of orders were placed between 11 and 23 with rush hours 12-14 and 1
 
 The dataset shows there are pizza types that don't have any sales in some particular size option (The Big Meat small, Four Cheese medium and large, Five Cheese large). To reflect this information I would recommend checking the ordering system to make sure all entries are saved accordingly.
 
-As the restaurant has only the Greek pizza in XL and XXL sizes with 552 and 28 pieces sold/year respectively. I would consider removing XXL size and adding more options (the most sold/favorite types) for the XL size and creating a weekend/lunch offer for XL pizzas. The effectiveness of this step should be reviewed with new data.
+As the restaurant has only the Greek pizza in XL and XXL sizes with 552 and 28 pieces sold/year respectively, I would consider removing XXL size and adding more options (the most sold/favorite types) for the XL size and creating a weekend/lunch offer for XL pizzas to introduce new product to the customers. The effectiveness of this step should be reviewed with new data.
 
 The Brie Carre pizza is the most expensive ($23.65) and available only in a small size. With 490 pieces sold it brought the lowest revenue of $11.5k. Ingredients for this pizza are unique and the majority are not used in any other pizza. The manager/chef should review options for either changing ingredients to ones that are commonly used in the restaurant and changing the recipe to make the pizza more affordable or considering taking the pizza off the menu.
