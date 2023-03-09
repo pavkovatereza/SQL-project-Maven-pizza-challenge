@@ -254,7 +254,7 @@ LIMIT 5;
 # What size is prefered?
 SELECT 
 	CASE
-		WHEN pizza_id REGEXP "s$" THEN "Small"
+	WHEN pizza_id REGEXP "s$" THEN "Small"
         WHEN pizza_id REGEXP "m$" THEN "Medium"
         WHEN pizza_id REGEXP "xl$" THEN "XLarge"
         ELSE "Large"
@@ -361,7 +361,7 @@ FROM
 # Does season affect revenue?
 SELECT ROUND(SUM(d.quantity*p.price),0) AS revenue,
 	CASE 
-		WHEN monthname(o.date) IN ("March", "April", "May") THEN "spring"
+	WHEN monthname(o.date) IN ("March", "April", "May") THEN "spring"
         WHEN monthname(o.date) IN ("June", "July", "August") THEN "summer"
         WHEN monthname(o.date) IN ("September", "October", "November") THEN "fall"
         WHEN monthname(o.date) IN ("December", "January", "February") THEN "winter"
