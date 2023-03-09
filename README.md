@@ -30,14 +30,14 @@ The goal of this analysis is to identify possible areas of improvement to get be
 2. Friday is the busiest day of the week with an average of 165 pizzas. Thursday and Saturday shared the second position with an average of 144 pizzas. Sunday is the least busy day with an average of 116 pizzas.
 3. The restaurant is expected to receive on average 60 orders per day, with $38.31 as an average price per order, and an average amount of 2.3 pizzas per order. The highest recorded amount of pizzas in one order was 28.
 4. The majority of orders have 1-4 pizzas (8k - 3k), and the number of orders with more pizzas is dramatically decreasing (5 pizzas were ordered only 145 times).
-6. **The majority of all orders had been placed between 11 and 23 with rush hours 12-14 and 17-19.** 
-7. **Adjusting current opening hours (10-23 daily) to 11-22 Sun-Thu and 11-23 Fri-Sat would increase hourly revenue by 10.6% from $175.73/h to $194.44/h.**
-8. Large-size pizzas are the favorite with 18.9k pieces sold. Small-sized pizzas are the least sold with 14.4k pieces.
-9. The absolute favorite is the small-sized big meat pizza priced at $12 with 1.9k pieces sold and a total revenue of $23k. This pizza type doesn't have any other sales in different sizes.
-10. The following pizzas and sizes don't have any recorded sales: Big Meat (M and L), Four Cheese (S), and Five Cheese (S and M).
-14. Pizza types that brought the highest revenue are The Thai Chicken ($43.5k), The Barbecue Chicken ($42.7k), and The California Chicken ($41.4k)
-15. The only pizza style made in XL and XXL sizes is the Greek pizza, XL size is very popular, but XXL had been sold only 28 times/year.
-16. The Brie Carre is sold only in S size and the price is higher than any other L size pizza ($23.65), it is also a pizza that overall brought the smallest revenue of $11.5k. However, compared to small-sized pizzas, the Brie Carre brought the 2nd highest revenue.
+5. **The majority of all orders had been placed between 11 and 23 with rush hours 12-14 and 17-19.** 
+6. **Adjusting current opening hours (10-23 daily) to 11-22 Sun-Thu and 11-23 Fri-Sat would increase hourly revenue by 10.6% from $175.73/h to $194.44/h.**
+7. Large-size pizzas are the favorite with 18.9k pieces sold. Small-sized pizzas are the least sold with 14.4k pieces.
+8. The absolute favorite is the small-sized big meat pizza priced at $12 with 1.9k pieces sold and a total revenue of $23k. This pizza type doesn't have any other sales in different sizes.
+9. The following pizzas and sizes don't have any recorded sales: Big Meat (M and L), Four Cheese (S), and Five Cheese (S and M).
+10. Pizza types that brought the highest revenue are The Thai Chicken ($43.5k), The Barbecue Chicken ($42.7k), and The California Chicken ($41.4k)
+11. The only pizza style made in XL and XXL sizes is the Greek pizza, XL size is very popular, but XXL had been sold only 28 times/year.
+12. The Brie Carre is sold only in S size and the price is higher than any other L size pizza ($23.65), it is also a pizza that overall brought the smallest revenue of $11.5k. However, compared to small-sized pizzas, the Brie Carre brought the 2nd highest revenue.
 
 ## 🎯 Conclusion
 The dataset provides valuable insight into the sales of Plato’s Pizza from the year 2015. For further analysis, I would recommend tracking which orders were placed for take-away and orders to eat in, and also information about the approximate cost of used ingredients (product cost). This information could be used to optimize the number of workers needed on specific days and times and the number of seats needed for guests in the restaurant. Knowing the product cost for each pizza will allow for analyzing the actual profit from selling each pizza (the most sold one or the one with the most revenue doesn’t need to be the most profitable one).
