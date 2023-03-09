@@ -2,6 +2,7 @@
 This dataset, available at [Maven Analytics Playground](https://www.mavenanalytics.io/blog/maven-pizza-challenge), contains information about sales of Plato’s Pizza, the Greek-inspired pizza restaurant, from 2015. It has 4 tables with information about orders and sales details, pizza types, and prices.  
 
 Dataset was analyzed using MySQL, the code used for analysis can be found in [this](https://github.com/pavkovatereza/SQL-project-Maven-pizza-challenge/blob/main/Maven_pizza_challenge.sql) repository.
+I also added separated calculation on profitability of changed opening hours to [this](https://github.com/pavkovatereza/SQL-project-Maven-pizza-challenge/blob/main/Opening_hs_optimization.sql) repository.
 
 Visualization will be available in the upcoming days.
 
