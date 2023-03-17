@@ -4,7 +4,7 @@ This dataset, available at [Maven Analytics Playground](https://www.mavenanalyti
 Dataset was analyzed using MySQL, the code used for analysis can be found in [this](https://github.com/pavkovatereza/SQL-project-Maven-pizza-challenge/blob/main/Maven_pizza_challenge.sql) repository.
 I also added separate calculation on the profitability of changed opening hours to [this](https://github.com/pavkovatereza/SQL-project-Maven-pizza-challenge/blob/main/Opening_hs_optimization.sql) repository.
 
-Visualization will be available in the upcoming days.
+Visualization can be found [here](https://public.tableau.com/app/profile/tereza.pavkova/viz/MavenPizzaChallengebiggersize/PlatosPizzaDashboard).
 
 ## ❓ Questions
 The goal of this analysis is to identify possible areas of improvement to get better sales and optimized operations. With this goal in mind, I was looking to get the following questions answered:
